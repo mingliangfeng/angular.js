@@ -211,7 +211,7 @@
  *     propagated to the isolated scope, because the identity of the object on the parent scope
  *     has not changed. Instead you must assign a new object.
  *
- *   One-way binding is useful if you do not plan to propagate changes to your isolated scope bindings
+ *   One-way binding is useful if you do not plan to propagate changes from your isolated scope bindings
  *   back to the parent. However, it does not make this completely impossible.
  *
  * * `&` or `&attr` - provides a way to execute an expression in the context of the parent scope. If
